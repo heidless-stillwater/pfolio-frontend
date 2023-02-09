@@ -1,11 +1,15 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Image from 'next/image';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
+
+//import bgPic from '../../public/images/pfolio_bg.png';
+
 
 import HeroButtons from './HeroButtons';
 
