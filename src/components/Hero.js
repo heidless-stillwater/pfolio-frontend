@@ -122,6 +122,14 @@ const Hero = () => {
                                                 },
                                             }}
                                         >
+
+                                            <Image
+                                                src="/logo/git.svg"
+                                                alt="Picture of the author"
+                                                width={350}
+                                                height={200}
+                                            />
+                                                
                                             <Box 
                                                 component={LazyLoadImage}
                                                 src='/images/pfolio_bg.png'
@@ -132,6 +140,7 @@ const Hero = () => {
                                                 width={1}
                                                 maxWidth={1}
                                             />
+
                                         </Box>
                                     </Box>
                                 </Box>
