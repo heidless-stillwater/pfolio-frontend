@@ -6,14 +6,13 @@ COPY package.json package-lock.json ./
 RUN  npm install --production 
 
 FROM node:19-alpine3.16 AS builder 
-# 19-alpine3.16 
 WORKDIR /app 
 COPY --from=deps /app/node_modules ./node_modules 
 COPY . . 
 ENV NEXT_TELEMETRY_DISABLED 1 
 RUN npm run build 
 
-FROM node:18-alpine AS runner 
+FROM node:19-alpine3.16 AS runner 
 WORKDIR /app 
 ENV NODE_ENV production 
 ENV NEXT_TELEMETRY_DISABLED 1 
