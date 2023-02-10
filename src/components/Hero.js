@@ -122,17 +122,9 @@ const Hero = () => {
                                                 },
                                             }}
                                         >
-
-                                            <Image
-                                                src="/logo/git.svg"
-                                                alt="Picture of the author"
-                                                width={350}
-                                                height={200}
-                                            />
-                                                
                                             <Box 
                                                 component={LazyLoadImage}
-                                                src='/images/pfolio_bg.png'
+                                                src='https://storage.cloud.google.com/pfolio-frontend-static/pfolio_bg.png'
                                                 alt='Background Image'
                                                 effect='blur'
                                                 height={{ xs: 'auto', md: 1 }}
