@@ -54,7 +54,7 @@ const Hero = () => {
                                             align='center'
                                             marginBottom={3}
                                         >
-                                            Bob's Programming Academy
+                                            Rob's Tech
                                         </Typography>
                                     </Box>
                                     <Box marginBottom={3}>
