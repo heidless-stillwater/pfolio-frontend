@@ -64,7 +64,7 @@ const Hero = () => {
                                             color={theme.palette.text.secondary}
                                             align='justify'
                                         >
-                                            In Bob's Programming Academy, we help both aspiring and established software developers gain more experience, take their skills to the next level and create excellent applications.
+                                            In Rob's Tech, we help both aspiring and established software developers gain more experience, take their skills to the next level and create excellent applications.
                                         </Typography>
                                     </Box>
                                     <HeroButtons />

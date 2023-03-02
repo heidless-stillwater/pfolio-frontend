@@ -103,7 +103,7 @@ const Header = ({ onSidebarOpen }) => {
                                     display: { md: 'inline', xs: 'none' }
                                 }}
                             >
-                                Bob's Programming Academy
+                                Rob's Tech
                             </Typography>
                         </IconButton>
                     </Link>
