@@ -7,8 +7,7 @@ import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-
-//import bgPic from '../../public/images/pfolio_bg.png';
+/*import bgPic from '../../public/images/pfolio_bg.png';*/
 
 
 import HeroButtons from './HeroButtons';
@@ -124,7 +123,7 @@ const Hero = () => {
                                         >
                                             <Box 
                                                 component={LazyLoadImage}
-                                                src='https://storage.cloud.google.com/pfolio-frontend-static/pfolio_bg.png'
+                                                src='https://storage.cloud.google.com/frontend-bucket-0/bg.jpg?authuser=0'
                                                 alt='Background Image'
                                                 effect='blur'
                                                 height={{ xs: 'auto', md: 1 }}
