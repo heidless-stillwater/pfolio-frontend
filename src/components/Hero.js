@@ -9,7 +9,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 /*import bgPic from '../../public/images/pfolio_bg.png';*/
 
-
 import HeroButtons from './HeroButtons';
 
 const Hero = () => {
@@ -53,7 +52,7 @@ const Hero = () => {
                                             align='center'
                                             marginBottom={3}
                                         >
-                                            Rob's Tech
+                                            Rob's Tech Portfolio
                                         </Typography>
                                     </Box>
                                     <Box marginBottom={3}>
@@ -63,7 +62,63 @@ const Hero = () => {
                                             color={theme.palette.text.secondary}
                                             align='justify'
                                         >
-                                            In Rob's Tech, we help both aspiring and established software developers gain more experience, take their skills to the next level and create excellent applications.
+                                            Hello. My names Rob. I'm long-term IT with numerous diversions along the way. 
+                                        </Typography>
+                                        <br />
+                                        <Typography
+                                            variant='h6'
+                                            component='p'
+                                            color={theme.palette.text.secondary}
+                                            align='justify'
+                                        >
+                                            BSc Computer Science (Distinction) - 1989. Initially, Dev with Sun Microsystem startup in Scotland. SUN latterly bought by Oracle. 
+                                            Subsequently, contractor in London - SYBASE SQL env.
+                                        </Typography>
+                                        <br />
+                                        <Typography
+                                            variant='h6'
+                                            component='p'
+                                            color={theme.palette.text.secondary}
+                                            align='justify'
+                                        >
+                                            Latterly, Scrum Master/ADM. Fully commited to Collaborative Team Delivery (Agile).
+                                        </Typography>
+                                        <br />
+                                        <Typography
+                                            variant='h6'
+                                            component='p'
+                                            color={theme.palette.text.secondary}
+                                            align='justify'
+                                        >
+                                            Also, semi-professional in the Arts for 15 years - writer, producer, actor. Amongst much else I learned that a Theatrical Production is simply a Project that CANNOT slip its deadline. Opening Night happens - ready or not ;-)
+                                        </Typography>
+                                        <br />
+                                        <Typography
+                                            variant='h6'
+                                            component='p'
+                                            color={theme.palette.text.secondary}
+                                            align='justify'
+                                        >
+                                            I am refocusing on Develomment roles. I am full stack capable from inception to deployment. The Scrum Master in me has compelled me to focus on building a clear path to 'Live'.
+                                            My current focus is Dockerising & Deplying to Google Cloud.
+                                        </Typography>
+                                        <br />
+                                        <Typography
+                                            variant='h6'
+                                            component='p'
+                                            color={theme.palette.text.secondary}
+                                            align='justify'
+                                        >
+                                            I am actively seeking opportunities with my current ideal being short term contracts with SMART deliverables where I can add demonstrable value with opportunities to gain exposure to latest tech & practices.
+                                        </Typography>
+                                        <br />
+                                        <Typography
+                                            variant='h6'
+                                            component='p'
+                                            color={theme.palette.text.secondary}
+                                            align='justify'
+                                        >
+                                            Just in case: S.M.A.R.T = Specific, Measurable, Achievable, Realistic, Time-based. 
                                         </Typography>
                                     </Box>
                                     <HeroButtons />

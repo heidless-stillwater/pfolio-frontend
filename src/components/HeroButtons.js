@@ -27,7 +27,7 @@ const HeroButtons = () => {
                     variant='contained'
                     color='primary'
                     size='large'
-                    href='#about'
+                    href='https://master--cute-sprinkles-7b3bd8.netlify.app/blog/ '
                     endIcon={<HelpIcon />}
                     fullWidth={isMd ? false : true}
                     disableElevation={true}
@@ -44,7 +44,7 @@ const HeroButtons = () => {
                         }
                     }}
                 >
-                    Learn More
+                    scrumming IT: blog
                 </Button>
                 <Box
                     marginTop={{ xs: 2, sm: 0 }}
@@ -73,7 +73,7 @@ const HeroButtons = () => {
                             }
                         }}
                     >
-                        View Our Work
+                        Sample Projects
                     </Button>
                 </Box>
             </Box>
