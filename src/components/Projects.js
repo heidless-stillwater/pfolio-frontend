@@ -178,7 +178,15 @@ const Projects = () => {
                                             target='_blank'
                                             sx={{ textTransform: 'none' }}
                                         >
-                                            Source Code
+                                            visit
+                                        </Button>
+                                        <Button 
+                                            component='a'
+                                            href={'https://master--cute-sprinkles-7b3bd8.netlify.app/blog/'}
+                                            target='_blank'
+                                            sx={{ textTransform: 'none' }}
+                                        >
+                                            blog entry
                                         </Button>
                                     </CardActions>
                                 </Box>
