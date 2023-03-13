@@ -51,7 +51,7 @@ const About = () => {
                             data-aos='fade-up'
                             gutterBottom
                         >
-                            About us
+                            Technologies
                         </Typography>
                         <Typography
                             variant='h6'
@@ -61,7 +61,7 @@ const About = () => {
                             marginTop={4}
                             marginBottom={6}
                         >
-                            We help software developers learn new skills, gain more experience and create excellent applications.
+                            My current tech focuses. Choices reflect my need for a clean path to LIVE & enabling CI.
                         </Typography>
                     </Box>
                     <Grid container spacing={4}>

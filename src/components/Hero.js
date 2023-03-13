@@ -90,15 +90,6 @@ const Hero = () => {
                                             color={theme.palette.text.secondary}
                                             align='justify'
                                         >
-                                            Also, semi-professional in the Arts for 15 years - writer, producer, actor. Amongst much else I learned that a Theatrical Production is simply a Project that CANNOT slip its deadline. Opening Night happens - ready or not ;-)
-                                        </Typography>
-                                        <br />
-                                        <Typography
-                                            variant='h6'
-                                            component='p'
-                                            color={theme.palette.text.secondary}
-                                            align='justify'
-                                        >
                                             I am refocusing on Develomment roles. I am full stack capable from inception to deployment. The Scrum Master in me has compelled me to focus on building a clear path to 'Live'.
                                             My current focus is Dockerising & Deplying to Google Cloud.
                                         </Typography>
@@ -109,7 +100,7 @@ const Hero = () => {
                                             color={theme.palette.text.secondary}
                                             align='justify'
                                         >
-                                            I am actively seeking opportunities with my current ideal being short term contracts with SMART deliverables where I can add demonstrable value with opportunities to gain exposure to latest tech & practices.
+                                            I am actively seeking opportunities with my current ideal being short term contracts with SMART deliverables where I can add demonstrable value.
                                         </Typography>
                                         <br />
                                         <Typography

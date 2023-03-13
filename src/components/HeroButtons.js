@@ -56,7 +56,7 @@ const HeroButtons = () => {
                         variant='outlined'
                         color='primary'
                         size='large'
-                        href='#'
+                        href='#projects'
                         endIcon={<ManageSearchIcon />}
                         fullWidth={isMd ? false : true}
                         disableElevation={true}
@@ -73,7 +73,7 @@ const HeroButtons = () => {
                             }
                         }}
                     >
-                        Sample Projects
+                        projects
                     </Button>
                 </Box>
             </Box>
