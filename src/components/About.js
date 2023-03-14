@@ -51,7 +51,7 @@ const About = () => {
                             data-aos='fade-up'
                             gutterBottom
                         >
-                            Technologies
+                            Current Tech Focus
                         </Typography>
                         <Typography
                             variant='h6'
@@ -61,7 +61,7 @@ const About = () => {
                             marginTop={4}
                             marginBottom={6}
                         >
-                            My current tech focuses. Choices reflect my need for a clean path to LIVE & enabling CI.
+                            Choices reflect my need for a clean path to LIVE & enabling CI - & so empowering the dev cycle.
                         </Typography>
                     </Box>
                     <Grid container spacing={4}>

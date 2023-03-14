@@ -63,7 +63,7 @@ const Projects = () => {
                         marginTop={4}
                         marginBottom={6}
                     >
-                        View some of our latest projects
+                        Covering Client, Contribution & Personal Projects
                     </Typography>
                 </Box>
                 <Grid container spacing={4}>

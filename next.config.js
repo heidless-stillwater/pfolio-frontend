@@ -2,7 +2,7 @@ const withImages = require('next-images');
 
 module.exports = withImages({
     images: {
-        domains: [process.env.BACKEND_HOST],
+        domains: [process.env.BACKEND_HOST, 'storage.googleapis.com'],
         disableStaticImages: false,
     },
     async rewrites() {

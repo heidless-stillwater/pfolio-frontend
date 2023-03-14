@@ -91,7 +91,7 @@ const Hero = () => {
                                             align='justify'
                                         >
                                             I am refocusing on Develomment roles. I am full stack capable from inception to deployment. The Scrum Master in me has compelled me to focus on building a clear path to 'Live'.
-                                            My current focus is Dockerising & Deplying to Google Cloud.
+                                            My current focus is Dockerising & Deploying to Google Cloud.
                                         </Typography>
                                         <br />
                                         <Typography
