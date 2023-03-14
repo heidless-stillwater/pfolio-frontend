@@ -61,7 +61,7 @@ const Technologies = () => {
                             marginTop={4}
                             marginBottom={6}
                         >
-                            Technologies we use to build our products
+                            Langs, Frameworks & Tools Encountered along the way...
                         </Typography>
                     </Box>
                     <Grid container spacing={2}>
