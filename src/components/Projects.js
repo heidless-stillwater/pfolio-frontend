@@ -182,7 +182,7 @@ const Projects = () => {
                                         </Button>
                                         <Button 
                                             component='a'
-                                            href={'https://master--cute-sprinkles-7b3bd8.netlify.app/blog/'}
+                                            href={'https://master--scrumming-it.netlify.app/'}
                                             target='_blank'
                                             sx={{ textTransform: 'none' }}
                                         >
