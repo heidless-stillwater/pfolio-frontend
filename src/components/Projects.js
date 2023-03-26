@@ -182,11 +182,11 @@ const Projects = () => {
                                         </Button>
                                         <Button 
                                             component='a'
-                                            href={'https://master--scrumming-it.netlify.app/'}
+                                            href={item.link_blog}
                                             target='_blank'
                                             sx={{ textTransform: 'none' }}
                                         >
-                                            blog entry
+                                            blog TEST
                                         </Button>
                                     </CardActions>
                                 </Box>
