@@ -186,7 +186,7 @@ const Projects = () => {
                                             target='_blank'
                                             sx={{ textTransform: 'none' }}
                                         >
-                                            blog TEST
+                                            blog
                                         </Button>
                                     </CardActions>
                                 </Box>
