@@ -196,18 +196,6 @@ const Projects = () => {
                                             blog
                                         </Button>
                                     </CardActions>
-                                    
-                                    <CardActions sx={{ justifyContent: 'flex-end' }}>
-                                        <Button 
-                                            component='a'
-                                            href={item.link_blog}
-                                            target='_blank'
-                                            sx={{ textTransform: 'none' }}
-                                        >
-                                            blog
-                                        </Button>
-                                    </CardActions>
-                                    
                                 </Box>
                             </Box>
                         </Grid>
