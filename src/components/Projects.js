@@ -18,6 +18,8 @@ const Projects = () => {
 
     const [projects, setProjects] = React.useState([]);
 
+//    console.log('BACKEND_URL', BACKEND_URL)
+
     const fetchProjects = () => {
         axios.get('/projects', {
             headers: {
@@ -27,6 +29,10 @@ const Projects = () => {
         })
         .then(response => {
             setProjects(response.data);
+//            console.log('DATA:')
+//            {projects.map((item, i) => (
+//                console.log("DATA:", item.name, ':', item.link, ':', item.link_blog, ':')
+ //           ))}
         })
         .catch(err => console.log(err));
     };
@@ -171,6 +177,7 @@ const Projects = () => {
                                         </Box>
                                     </CardContent>
                                     <Box flexGrow={1} />
+                                    
                                     <CardActions sx={{ justifyContent: 'flex-end' }}>
                                         <Button 
                                             component='a'
@@ -180,15 +187,19 @@ const Projects = () => {
                                         >
                                             visit
                                         </Button>
+                                    </CardActions>
+                                    
+                                    <CardActions sx={{ justifyContent: 'flex-end' }}>
                                         <Button 
                                             component='a'
                                             href={item.link_blog}
                                             target='_blank'
                                             sx={{ textTransform: 'none' }}
                                         >
-                                            blog - TEST
+                                            blog
                                         </Button>
                                     </CardActions>
+                                    
                                 </Box>
                             </Box>
                         </Grid>
