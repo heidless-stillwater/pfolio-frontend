@@ -27,7 +27,8 @@ const HeroButtons = () => {
                     variant='contained'
                     color='primary'
                     size='large'
-                    href='https://master--cute-sprinkles-7b3bd8.netlify.app/blog/ '
+                    href='https://master--scrumming-it.netlify.app/'
+                    target='_blank'
                     endIcon={<HelpIcon />}
                     fullWidth={isMd ? false : true}
                     disableElevation={true}

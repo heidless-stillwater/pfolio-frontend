@@ -27,6 +27,8 @@ const Projects = () => {
         })
         .then(response => {
             setProjects(response.data);
+            resp = response.data;
+            console.log(resp);
         })
         .catch(err => console.log(err));
     };
@@ -171,6 +173,7 @@ const Projects = () => {
                                         </Box>
                                     </CardContent>
                                     <Box flexGrow={1} />
+                                    
                                     <CardActions sx={{ justifyContent: 'flex-end' }}>
                                         <Button 
                                             component='a'
@@ -186,7 +189,7 @@ const Projects = () => {
                                             target='_blank'
                                             sx={{ textTransform: 'none' }}
                                         >
-                                            blog - TEST
+                                            blog
                                         </Button>
                                     </CardActions>
                                 </Box>
