@@ -103,7 +103,7 @@ const Header = ({ onSidebarOpen }) => {
                                     display: { md: 'inline', xs: 'none' }
                                 }}
                             >
-                                Rob's Tech Portfoio
+                                Scrumming IT Portfolio
                             </Typography>
                         </IconButton>
                     </Link>

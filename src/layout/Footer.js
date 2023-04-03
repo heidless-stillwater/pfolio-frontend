@@ -77,7 +77,7 @@ const Footer = () => {
                                                 variant='body2'
                                                 color={theme.palette.text.secondary}
                                             >
-                                                Copyright &copy; {new Date().getFullYear()} Rob's Tech
+                                                Copyright &copy; {new Date().getFullYear()} Scrumming IT Portfolio
                                             </Typography>
                                         }
                                     />

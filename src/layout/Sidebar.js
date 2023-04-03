@@ -73,7 +73,7 @@ const Sidebar = ({ open, onClose }) => {
                                     textDecoration='none'
                                     flexGrow={1}
                                 >
-                                    Rob's Tech
+                                    Scrumming IT Portfolio
                                 </Typography>
                             </IconButton>
                         </Link>

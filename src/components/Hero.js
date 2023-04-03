@@ -52,7 +52,7 @@ const Hero = () => {
                                             align='center'
                                             marginBottom={3}
                                         >
-                                            Rob's Tech Portfolio
+                                            Scrumming IT Portfolio
                                         </Typography>
                                     </Box>
                                     <Box marginBottom={3}>
@@ -62,7 +62,7 @@ const Hero = () => {
                                             color={theme.palette.text.secondary}
                                             align='justify'
                                         >
-                                            Hello. My names Rob. I'm long-term IT with numerous diversions along the way. 
+                                            Hello. My name's Rob. I'm long-term IT with numerous diversions along the way. 
                                         </Typography>
                                         <br />
                                         <Typography

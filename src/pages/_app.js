@@ -59,9 +59,9 @@ const App = ({ Component, pageProps, emotionCache = clientSideEmotionCache }) =>
             <Head>
                 <meta charSet='utf-8' />
                 <meta content='minimum-scale=1, initial-scale=1, width=device-width' name='viewport' />
-                <meta name='description' content="Rob's Tech" />
+                <meta name='description' content="Scrumming IT Portfolio" />
                 <meta name='keywords' content='programming, python, javascript, portfolio, website' />
-                <title>Rob's Tech</title>
+                <title>Scrumming IT Portfolio</title>
             </Head>
             <ColorModeContext.Provider value={colorMode}>
                 <ThemeProvider theme={customTheme[mode]}>
