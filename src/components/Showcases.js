@@ -54,7 +54,7 @@ const Showcases = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            Showcases
+            Data Projects
           </Typography>
           <Typography
             variant='h6'

@@ -13,31 +13,31 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
 
-const Demos = () => {
+const Tools = () => {
   const theme = useTheme();
 
-  const [demos, setDemos] = useState([]);
+  const [tools, setTools] = useState([]);
 
-  const fetchDemos = () => {
+  const fetchTools = () => {
     axios
-      .get('/demos', {
+      .get('/tools', {
         headers: {
           Accept: 'application/json',
           'Access-Control-Allow-Origin': process.env.BACKEND_URL,
         },
       })
       .then((response) => {
-        setDemos(response.data);
+        setTools(response.data);
       })
       .catch((error) => console.log(error));
   };
 
   useEffect(() => {
-    fetchDemos();
+    fetchTools();
   }, []);
 
   return (
-    <div id='demos'>
+    <div id='tools'>
       <Box
         maxWidth={{ sm: 720, md: 1236 }}
         width={1}
@@ -54,7 +54,7 @@ const Demos = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            React/JavaScript
+            Data Projects 2
           </Typography>
           <Typography
             variant='h6'
@@ -64,11 +64,11 @@ const Demos = () => {
             marginTop={4}
             marginBottom={6}
           >
-            View some of our latest demos
+            My latest examples
           </Typography>
         </Box>
         <Grid container spacing={4}>
-          {demos.map((item, i) => (
+          {tools.map((item, i) => (
             <Grid
               key={i}
               item
@@ -193,4 +193,4 @@ const Demos = () => {
   );
 };
 
-export default Demos;
+export default Tools;

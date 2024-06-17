@@ -13,31 +13,31 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
 
-const Demos = () => {
+const Portfolios = () => {
   const theme = useTheme();
 
-  const [demos, setDemos] = useState([]);
+  const [portfolios, setPortfolios] = useState([]);
 
-  const fetchDemos = () => {
+  const fetchPortfolios = () => {
     axios
-      .get('/demos', {
+      .get('/portfolios', {
         headers: {
           Accept: 'application/json',
           'Access-Control-Allow-Origin': process.env.BACKEND_URL,
         },
       })
       .then((response) => {
-        setDemos(response.data);
+        setPortfolios(response.data);
       })
       .catch((error) => console.log(error));
   };
 
   useEffect(() => {
-    fetchDemos();
+    fetchPortfolios();
   }, []);
 
   return (
-    <div id='demos'>
+    <div id='portfolios'>
       <Box
         maxWidth={{ sm: 720, md: 1236 }}
         width={1}
@@ -54,7 +54,7 @@ const Demos = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            React/JavaScript
+            Ruby on Rails
           </Typography>
           <Typography
             variant='h6'
@@ -64,11 +64,11 @@ const Demos = () => {
             marginTop={4}
             marginBottom={6}
           >
-            View some of our latest demos
+            View some of our latest portfolios
           </Typography>
         </Box>
         <Grid container spacing={4}>
-          {demos.map((item, i) => (
+          {portfolios.map((item, i) => (
             <Grid
               key={i}
               item
@@ -193,4 +193,4 @@ const Demos = () => {
   );
 };
 
-export default Demos;
+export default Portfolios;

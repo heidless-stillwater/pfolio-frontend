@@ -54,7 +54,7 @@ const Examples = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            Examples
+            A.I. Projects
           </Typography>
           <Typography
             variant='h6'

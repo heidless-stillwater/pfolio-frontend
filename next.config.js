@@ -13,6 +13,10 @@ module.exports = withImages({
         destination: `${process.env.BACKEND_URL}/about/`,
       },
       {
+        source: '/portfolios',
+        destination: `${process.env.BACKEND_URL}/portfolios/`,
+      },
+      {
         source: '/samples',
         destination: `${process.env.BACKEND_URL}/samples/`,
       },

@@ -54,7 +54,7 @@ const Samples = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            Samples
+            Python
           </Typography>
           <Typography
             variant='h6'
