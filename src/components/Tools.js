@@ -54,7 +54,7 @@ const Tools = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            Data Projects 2
+            (Tools): Portfolio Site
           </Typography>
           <Typography
             variant='h6'
@@ -64,7 +64,7 @@ const Tools = () => {
             marginTop={4}
             marginBottom={6}
           >
-            My latest examples
+            Portfolio Tools
           </Typography>
         </Box>
         <Grid container spacing={4}>

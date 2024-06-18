@@ -5,12 +5,17 @@ module.exports = withImages({
     contentDispositionType: 'inline',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     domains: ['storage.googleapis.com', process.env.BACKEND_HOST],
+    // domains: ['storage.googleapis.com', process.env.BACKEND_HOST],
   },
   async rewrites() {
     return [
       {
         source: '/about',
         destination: `${process.env.BACKEND_URL}/about/`,
+      },
+      {
+        source: '/tools',
+        destination: `${process.env.BACKEND_URL}/tools/`,
       },
       {
         source: '/portfolios',

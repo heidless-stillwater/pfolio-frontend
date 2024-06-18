@@ -2,8 +2,12 @@
 node_modules/
 .next/
 .swc/
-.*.env
-.env
+
+#####################################################
+## WARNING: gitignore .env prevents value being read
+# .*.env
+# .env
+#####################################################
 
 # heidless-pfolio*.json
 
