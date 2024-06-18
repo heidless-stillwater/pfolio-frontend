@@ -54,7 +54,7 @@ const Tools = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            (Tools): Portfolio Site
+            (tools): Portfolio Site
           </Typography>
           <Typography
             variant='h6'

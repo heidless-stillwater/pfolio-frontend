@@ -54,7 +54,7 @@ const Demos = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            React/JavaScript
+            (demo): misc projects
           </Typography>
           <Typography
             variant='h6'

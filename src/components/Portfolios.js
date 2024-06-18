@@ -54,7 +54,7 @@ const Portfolios = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            Ruby on Rails
+            Portfolio
           </Typography>
           <Typography
             variant='h6'

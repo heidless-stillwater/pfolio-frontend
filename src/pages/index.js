@@ -18,9 +18,9 @@ const Home = () => {
       <Hero />
       <About />
       <Tools />
-      <Portfolios />
       <Samples />
       <Demos />
+      <Portfolios />
       <Showcases />
       <Examples />
       <Projects />
