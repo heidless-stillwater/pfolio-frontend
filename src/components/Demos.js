@@ -175,11 +175,19 @@ const Demos = () => {
                   <CardActions sx={{ justifyContent: 'flex-end' }}>
                     <Button
                       component='a'
+                      href={item.blog}
+                      target='_blank'
+                      sx={{ textTransform: 'none' }}
+                    >
+                      blog
+                    </Button>
+                    <Button
+                      component='a'
                       href={item.link}
                       target='_blank'
                       sx={{ textTransform: 'none' }}
                     >
-                      Source Code
+                      visit
                     </Button>
                   </CardActions>
                 </Box>
