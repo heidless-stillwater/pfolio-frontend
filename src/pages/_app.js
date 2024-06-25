@@ -74,7 +74,7 @@ const App = ({
           name='keywords'
           content='programming, python, javascript, portfolio, website'
         />
-        <title>Bob&apos;s Programming Academy</title>
+        <title>scrumming IT: portfolio</title>
       </Head>
       <ColorModeContext.Provider value={colorMode}>
         <ThemeProvider theme={customTheme[mode]}>
