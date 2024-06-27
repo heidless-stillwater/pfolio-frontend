@@ -11,6 +11,7 @@ import Showcases from '../components/Showcases';
 import Examples from '../components/Examples';
 import Projects from '../components/Projects';
 import Technologies from '../components/Technologies';
+import DataSciences from '../components/DataSciences';
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Showcases />
       <Examples />
       <Projects />
+      <DataSciences />
       <Technologies />
       <Contact />
     </div>
