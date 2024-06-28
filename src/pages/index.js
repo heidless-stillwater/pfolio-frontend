@@ -21,11 +21,11 @@ const Home = () => {
       <Tools />
       <Samples />
       <Demos />
-      <Portfolios />
-      <Showcases />
-      <Examples />
-      <Projects />
-      <DataSciences />
+      {/* <Portfolios /> */}
+      {/* <Showcases /> */}
+      {/* <Examples /> */}
+      {/* <Projects /> */}
+      {/* <DataSciences /> */}
       <Technologies />
       <Contact />
     </div>

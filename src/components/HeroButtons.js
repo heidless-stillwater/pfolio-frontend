@@ -43,9 +43,9 @@ const HeroButtons = () => {
             },
           }}
         >
-          Learn More
+          More about Me...
         </Button>
-        <Box
+        {/* <Box
           marginTop={{ xs: 2, sm: 0 }}
           marginLeft={{ sm: 1 }}
           width={{ xs: '100%', md: 'auto' }}
@@ -74,7 +74,7 @@ const HeroButtons = () => {
           >
             View Our Work
           </Button>
-        </Box>
+        </Box> */}
       </Box>
     </React.Fragment>
   );

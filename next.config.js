@@ -42,6 +42,10 @@ module.exports = withImages({
         destination: `${process.env.BACKEND_URL}/projects/`,
       },
       {
+        source: '/datasciences',
+        destination: `${process.env.BACKEND_URL}/datasciences/`,
+      },
+      {
         source: '/technologies',
         destination: `${process.env.BACKEND_URL}/technologies/`,
       },
