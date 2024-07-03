@@ -183,6 +183,14 @@ const Demos = () => {
                     </Button>
                     <Button
                       component='a'
+                      href={item.git}
+                      target='_blank'
+                      sx={{ textTransform: 'none' }}
+                    >
+                      git
+                    </Button>
+                    <Button
+                      component='a'
                       href={item.link}
                       target='_blank'
                       sx={{ textTransform: 'none' }}
