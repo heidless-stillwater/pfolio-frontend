@@ -85,9 +85,23 @@ const Sidebar = ({ open, onClose }) => {
             </Box>
             <Box paddingY={1}>
               <CustomButton
-                href='#projects'
+                href='#tools'
                 icon={<ListIcon />}
-                text='Projects'
+                text='Portfolio'
+              />
+            </Box>
+            <Box paddingY={1}>
+              <CustomButton
+                href='#samples'
+                icon={<ListIcon />}
+                text='Ruby on Rails'
+              />
+            </Box>
+            <Box paddingY={1}>
+              <CustomButton
+                href='#demos'
+                icon={<ListIcon />}
+                text='Misc Projects'
               />
             </Box>
             <Box paddingY={1}>

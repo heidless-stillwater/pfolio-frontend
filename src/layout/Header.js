@@ -122,9 +122,19 @@ const Header = ({ onSidebarOpen }) => {
             <CustomButton href='#home' icon={<HomeIcon />} text='Home' />
             <CustomButton href='#about' icon={<InfoIcon />} text='About' />
             <CustomButton
-              href='#projects'
+              href='#tools'
               icon={<ListIcon />}
-              text='Projects'
+              text='Portfolio'
+            />
+            <CustomButton
+              href='#samples'
+              icon={<ListIcon />}
+              text='RubyOnRails'
+            />
+            <CustomButton
+              href='#demos'
+              icon={<ListIcon />}
+              text='Misc'
             />
             <CustomButton
               href='#technologies'
