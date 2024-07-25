@@ -54,7 +54,7 @@ const Portfolios = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            Portfolio
+            Certification
           </Typography>
           <Typography
             variant='h6'
@@ -64,7 +64,7 @@ const Portfolios = () => {
             marginTop={4}
             marginBottom={6}
           >
-            View some of our latest portfolios
+            Google Advanced Data Certification
           </Typography>
         </Box>
         <Grid container spacing={4}>

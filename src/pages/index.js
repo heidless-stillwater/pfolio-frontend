@@ -18,10 +18,10 @@ const Home = () => {
     <div id='home'>
       <Hero />
       <About />
+      <Portfolios />
       <Tools />
       <Samples />
       <Demos />
-      {/* <Portfolios /> */}
       {/* <Showcases /> */}
       {/* <Examples /> */}
       {/* <Projects /> */}
