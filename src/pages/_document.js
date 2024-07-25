@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
-        <link href='https://storage.googleapis.com/heidless-pfolio-5-bucket/images/favicon.ico' rel='shortcut icon' />
+        <link href='https://storage.googleapis.com/heidless-pfolio-6-bucket/images/favicon.ico' rel='shortcut icon' />
         {/* <link href='/images/favicon.ico' rel='shortcut icon' /> */}
         <link
             href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'
