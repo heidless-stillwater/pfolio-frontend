@@ -174,28 +174,13 @@ const Header = ({ onSidebarOpen }) => {
           />
           <Box sx={{ display: { lg: 'flex', md: 'none', xs: 'none' } }}>
             <IconButton
-              aria-label='YouTube'
-              color='primary'
-              href='#'
-              target='_blank'
-            >
-              <YouTubeIcon fontSize='large' />
-            </IconButton>
-            <IconButton
               aria-label='LinkedIn'
               color='primary'
+              // href='https://www.linkedin.com/in/robcraig1/'
               href='#'
               target='_blank'
             >
               <LinkedInIcon fontSize='large' />
-            </IconButton>
-            <IconButton
-              aria-label='Instagram'
-              color='primary'
-              href='#'
-              target='_blank'
-            >
-              <InstagramIcon fontSize='large' />
             </IconButton>
           </Box>
           {theme.palette.mode === 'dark' && <Divider />}
