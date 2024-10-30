@@ -172,6 +172,7 @@ const Header = ({ onSidebarOpen }) => {
               display: { lg: 'flex', md: 'none', xs: 'none' },
             }}
           />
+{/* 
           <Box sx={{ display: { lg: 'flex', md: 'none', xs: 'none' } }}>
             <IconButton
               aria-label='YouTube'
@@ -198,6 +199,7 @@ const Header = ({ onSidebarOpen }) => {
               <InstagramIcon fontSize='large' />
             </IconButton>
           </Box>
+           */}
           {theme.palette.mode === 'dark' && <Divider />}
         </Toolbar>
       </AppBar>

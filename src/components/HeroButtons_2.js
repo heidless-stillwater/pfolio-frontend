@@ -6,7 +6,7 @@ import { useTheme } from '@mui/material/styles';
 import HelpIcon from '@mui/icons-material/HelpOutlineOutlined';
 import ManageSearchIcon from '@mui/icons-material/ManageSearchOutlined';
 
-const HeroButtons = () => {
+const HeroButtons_2 = () => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
     defaultMatches: true,
@@ -23,10 +23,11 @@ const HeroButtons = () => {
       >
         <Button
           component='a'
+          width='100%'
           variant='contained'
           color='primary'
           size='large'
-          href='#about'
+          href='#tools'
           endIcon={<HelpIcon />}
           fullWidth={isMd ? false : true}
           disableElevation={true}
@@ -43,8 +44,34 @@ const HeroButtons = () => {
             },
           }}
         >
-          More about Me...
+          pFolio tools
         </Button>
+
+        <Button
+          component='a'
+          variant='contained'
+          color='primary'
+          size='large'
+          href='#demos'
+          endIcon={<HelpIcon />}
+          fullWidth={isMd ? false : true}
+          disableElevation={true}
+          sx={{
+            padding: '15px 30px',
+            marginRight: '15px',
+            fontSize: '16px',
+            textTransform: 'uppercase',
+            border: `2px solid ${theme.palette.primary.main}`,
+            '&:hover': {
+              backgroundColor: 'transparent',
+              color: theme.palette.primary.main,
+              border: `2px solid ${theme.palette.primary.main}`,
+            },
+          }}
+        >
+          Various
+        </Button>
+
         {/* <Box
           marginTop={{ xs: 2, sm: 0 }}
           marginLeft={{ sm: 1 }}
@@ -80,4 +107,4 @@ const HeroButtons = () => {
   );
 };
 
-export default HeroButtons;
+export default HeroButtons_2;

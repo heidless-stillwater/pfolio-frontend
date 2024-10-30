@@ -8,7 +8,9 @@ import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
-import HeroButtons from './HeroButtons';
+import HeroButtons_1 from './HeroButtons_1';
+import HeroButtons_2 from './HeroButtons_2';
+
 
 const Hero = () => {
   const theme = useTheme();
@@ -80,12 +82,13 @@ const Hero = () => {
                         variant='h6'
                         component='p'
                         color={theme.palette.text.secondary}
-                        align='justify'
+                        align='center'
                       >
                         {item.description}
                       </Typography>
                     </Box>
-                    <HeroButtons />
+                    <HeroButtons_1 />
+                    <HeroButtons_2 />
                   </Box>
                 </Container>
               </Box>
