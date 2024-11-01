@@ -54,7 +54,7 @@ const Projects = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            Projects
+            Google Data Certification
           </Typography>
           <Typography
             variant='h6'
@@ -64,7 +64,7 @@ const Projects = () => {
             marginTop={4}
             marginBottom={6}
           >
-            View some of our latest projects
+            Excellent foundational qualification. Planning to evolve this in the SaaS space. Likely coupled with A.I.
           </Typography>
         </Box>
         <Grid container spacing={4}>

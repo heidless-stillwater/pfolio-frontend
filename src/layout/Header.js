@@ -17,6 +17,7 @@ import EmailIcon from '@mui/icons-material/EmailOutlined';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/InfoOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import GoogleIcon from '@mui/icons-material/Google';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ListIcon from '@mui/icons-material/FormatListBulleted';

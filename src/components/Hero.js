@@ -10,6 +10,7 @@ import { useTheme } from '@mui/material/styles';
 
 import HeroButtons_1 from './HeroButtons_1';
 import HeroButtons_2 from './HeroButtons_2';
+import HeroButtons_3 from './HeroButtons_3';
 
 
 const Hero = () => {
@@ -59,17 +60,18 @@ const Hero = () => {
                 <Container>
                   <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
                     <Box marginBottom={2}>
-                      <Typography
+                      {/* <Typography
                         color={theme.palette.text.primary}
-                        variant='h2'
-                        fontWeight={700}
+                        variant='h1'
+                        fontWeight={1000}
                         align='center'
                       >
                         {item.title}{' '}
-                      </Typography>
+                      </Typography> */}
                       <Typography
-                        color={theme.palette.primary.main}
-                        variant='h2'
+                        color={theme.palette.text.primary}
+                        // color={theme.palette.primary.main}
+                        variant='h1'
                         fontWeight={700}
                         align='center'
                         marginBottom={3}
@@ -79,7 +81,7 @@ const Hero = () => {
                     </Box>
                     <Box marginBottom={3}>
                       <Typography
-                        variant='h6'
+                        variant='h3'
                         component='p'
                         color={theme.palette.text.secondary}
                         align='center'
@@ -89,6 +91,7 @@ const Hero = () => {
                     </Box>
                     <HeroButtons_1 />
                     <HeroButtons_2 />
+                    <HeroButtons_3 />
                   </Box>
                 </Container>
               </Box>

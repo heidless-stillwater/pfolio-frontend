@@ -4,9 +4,12 @@ import Button from '@mui/material/Button';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import HelpIcon from '@mui/icons-material/HelpOutlineOutlined';
+import GoogleIcon from '@mui/icons-material/Google';
+import AdbIcon from '@mui/icons-material/Adb';
 import ManageSearchIcon from '@mui/icons-material/ManageSearchOutlined';
+import { pink } from '@mui/material/colors';
 
-const HeroButtons_1 = () => {
+const HeroButtons_3 = () => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
     defaultMatches: true,
@@ -23,12 +26,11 @@ const HeroButtons_1 = () => {
       >
         <Button
           component='a'
-          width='100%'
           variant='contained'
-          color='primary'
+          color='warning'
           size='large'
-          href='#about'
-          endIcon={<HelpIcon />}
+          href='#projects'
+          endIcon={<GoogleIcon />}
           fullWidth={isMd ? false : true}
           disableElevation={true}
           sx={{
@@ -44,7 +46,7 @@ const HeroButtons_1 = () => {
             },
           }}
         >
-          More about Me
+          Google Advance Data Certification
         </Button>
 
         {/* <Box
@@ -82,4 +84,4 @@ const HeroButtons_1 = () => {
   );
 };
 
-export default HeroButtons_1;
+export default HeroButtons_3;

@@ -4,6 +4,8 @@ import Button from '@mui/material/Button';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import HelpIcon from '@mui/icons-material/HelpOutlineOutlined';
+import AdbIcon from '@mui/icons-material/Adb';
+
 import ManageSearchIcon from '@mui/icons-material/ManageSearchOutlined';
 
 const HeroButtons_2 = () => {
@@ -27,8 +29,8 @@ const HeroButtons_2 = () => {
           variant='contained'
           color='primary'
           size='large'
-          href='#tools'
-          endIcon={<HelpIcon />}
+          href='#samples'
+          endIcon={<AdbIcon />}
           fullWidth={isMd ? false : true}
           disableElevation={true}
           sx={{
@@ -44,32 +46,7 @@ const HeroButtons_2 = () => {
             },
           }}
         >
-          pFolio tools
-        </Button>
-
-        <Button
-          component='a'
-          variant='contained'
-          color='primary'
-          size='large'
-          href='#demos'
-          endIcon={<HelpIcon />}
-          fullWidth={isMd ? false : true}
-          disableElevation={true}
-          sx={{
-            padding: '15px 30px',
-            marginRight: '15px',
-            fontSize: '16px',
-            textTransform: 'uppercase',
-            border: `2px solid ${theme.palette.primary.main}`,
-            '&:hover': {
-              backgroundColor: 'transparent',
-              color: theme.palette.primary.main,
-              border: `2px solid ${theme.palette.primary.main}`,
-            },
-          }}
-        >
-          Various
+          Ruby on Rails
         </Button>
 
         {/* <Box

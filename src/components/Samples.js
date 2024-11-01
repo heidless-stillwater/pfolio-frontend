@@ -54,7 +54,7 @@ const Samples = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            (samples): Ruby on Rails
+            Ruby on Rails
           </Typography>
           <Typography
             variant='h6'

@@ -54,7 +54,7 @@ const Demos = () => {
             data-aos='fade-up'
             gutterBottom
           >
-            (demo): misc projects
+            misc projects
           </Typography>
           <Typography
             variant='h6'
